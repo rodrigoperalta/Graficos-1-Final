@@ -1,0 +1,577 @@
+﻿  Animation.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\textureimporter.h(31): warning C4091: 'static ': ignored on left of 'TextureImporter' when no variable is declared
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(43): warning C4251: 'Tilemap::level': class 'std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'Tilemap'
+          with
+          [
+              _Ty=int
+          ]
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(43): note: see declaration of 'std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=int
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(44): warning C4251: 'Tilemap::tiles': class 'std::vector<std::vector<Tile,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'Tilemap'
+          with
+          [
+              _Ty=Tile
+          ]
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(44): note: see declaration of 'std::vector<std::vector<Tile,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=Tile
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(67): warning C4251: 'Tilemap::actualPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(68): warning C4251: 'Tilemap::realPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(70): warning C4251: 'Tilemap::accumTrans': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(10): warning C4275: non dll-interface class 'Shape' used as base for dll-interface class 'Sprite'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\shape.h(6): note: see declaration of 'Shape'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(9): note: see declaration of 'Sprite'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(22): warning C4251: 'Sprite::originalPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Sprite'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\animation.cpp(25): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\animation.cpp(50): warning C4018: '<=': signed/unsigned mismatch
+  Circle.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\circle.h(7): warning C4275: non dll-interface class 'Shape' used as base for dll-interface class 'Circle'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\shape.h(6): note: see declaration of 'Shape'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\circle.h(6): note: see declaration of 'Circle'
+  CollisionManager.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\collisionmanager.h(15): warning C4251: 'CollisionManager::listsOfEntities': class 'std::vector<std::list<Entity *,std::allocator<_Ty>>,std::allocator<std::list<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'CollisionManager'
+          with
+          [
+              _Ty=Entity *
+          ]
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\collisionmanager.h(15): note: see declaration of 'std::vector<std::list<Entity *,std::allocator<_Ty>>,std::allocator<std::list<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=Entity *
+          ]
+  Definitions.cpp
+  Entity.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+  GameBase.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+  Input.cpp
+  Material.cpp
+  Rectangle.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\rectangle.h(6): warning C4275: non dll-interface class 'Shape' used as base for dll-interface class 'Rectangle'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\shape.h(6): note: see declaration of 'Shape'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\rectangle.h(5): note: see declaration of 'Rectangle'
+  Renderer.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+  Shape.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\shape.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Sprite.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\textureimporter.h(31): warning C4091: 'static ': ignored on left of 'TextureImporter' when no variable is declared
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(43): warning C4251: 'Tilemap::level': class 'std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'Tilemap'
+          with
+          [
+              _Ty=int
+          ]
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(43): note: see declaration of 'std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=int
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(44): warning C4251: 'Tilemap::tiles': class 'std::vector<std::vector<Tile,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'Tilemap'
+          with
+          [
+              _Ty=Tile
+          ]
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(44): note: see declaration of 'std::vector<std::vector<Tile,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=Tile
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(67): warning C4251: 'Tilemap::actualPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(68): warning C4251: 'Tilemap::realPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(70): warning C4251: 'Tilemap::accumTrans': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(10): warning C4275: non dll-interface class 'Shape' used as base for dll-interface class 'Sprite'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\shape.h(6): note: see declaration of 'Shape'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(9): note: see declaration of 'Sprite'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(22): warning C4251: 'Sprite::originalPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Sprite'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(153): warning C4244: 'initializing': conversion from 'genType' to 'int', possible loss of data
+          with
+          [
+              genType=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(154): warning C4244: 'initializing': conversion from 'genType' to 'int', possible loss of data
+          with
+          [
+              genType=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(168): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(167): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(174): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(173): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(187): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(186): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(192): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(191): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(212): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(211): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(218): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(217): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(231): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(230): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(237): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.cpp(236): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  TextureImporter.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\textureimporter.h(31): warning C4091: 'static ': ignored on left of 'TextureImporter' when no variable is declared
+  Tilemap.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\textureimporter.h(31): warning C4091: 'static ': ignored on left of 'TextureImporter' when no variable is declared
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(43): warning C4251: 'Tilemap::level': class 'std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'Tilemap'
+          with
+          [
+              _Ty=int
+          ]
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(43): note: see declaration of 'std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=int
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(44): warning C4251: 'Tilemap::tiles': class 'std::vector<std::vector<Tile,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'Tilemap'
+          with
+          [
+              _Ty=Tile
+          ]
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(44): note: see declaration of 'std::vector<std::vector<Tile,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=Tile
+          ]
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(67): warning C4251: 'Tilemap::actualPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(68): warning C4251: 'Tilemap::realPosition': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.h(70): warning C4251: 'Tilemap::accumTrans': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Tilemap'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(33): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(34): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(46): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(76): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(77): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(95): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(99): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(111): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(115): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(133): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(134): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(174): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(175): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(176): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(190): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(191): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(193): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(194): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(206): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(222): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(223): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(230): warning C4018: '<': signed/unsigned mismatch
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(385): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'unsigned int'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(403): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\tilemap.cpp(411): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  Triangle.cpp
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(21): warning C4251: 'Renderer::eyePosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(22): warning C4251: 'Renderer::cameraPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(24): warning C4251: 'Renderer::modelMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(25): warning C4251: 'Renderer::viewMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(26): warning C4251: 'Renderer::projectionMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\renderer.h(27): warning C4251: 'Renderer::MVP': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Renderer'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(17): warning C4251: 'Entity::vectorPosition': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(18): warning C4251: 'Entity::vectorRotation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(19): warning C4251: 'Entity::vectorScale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(229): note: see declaration of 'glm::vec<3,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(21): warning C4251: 'Entity::model': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(23): warning C4251: 'Entity::translationMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(24): warning C4251: 'Entity::rotateX': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(25): warning C4251: 'Entity::rotateY': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(26): warning C4251: 'Entity::rotateZ': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(27): warning C4251: 'Entity::scallingMatrix': struct 'glm::mat<4,4,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_mat.hpp(303): note: see declaration of 'glm::mat<4,4,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\entity.h(30): warning C4251: 'Entity::col': struct 'glm::vec<2,float,0>' needs to have dll-interface to be used by clients of class 'Entity'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\external\glm-0.9.9.0\glm\detail\type_vec.hpp(119): note: see declaration of 'glm::vec<2,float,0>'
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\triangle.h(6): warning C4275: non dll-interface class 'Shape' used as base for dll-interface class 'Triangle'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\shape.h(6): note: see declaration of 'Shape'
+  e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\triangle.h(5): note: see declaration of 'Triangle'
+  Window.cpp
+  Generating Code...
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(59): warning C4715: 'Sprite::GetAnimation': not all control paths return a value
+e:\rodrigo\ic\3-1\graficos 2\final - graficos 1 - peralta\final - graficos 1 - peralta\engine\enginedll\sprite.h(59): warning C4715: 'Sprite::GetAnimation': not all control paths return a value
+     Creating library E:\Rodrigo\IC\3-1\Graficos 2\Final - Graficos 1 - Peralta\Final - Graficos 1 - Peralta\Engine\Debug\ EngineDLL.lib and object E:\Rodrigo\IC\3-1\Graficos 2\Final - Graficos 1 - Peralta\Final - Graficos 1 - Peralta\Engine\Debug\ EngineDLL.exp
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  EngineDLL.vcxproj -> E:\Rodrigo\IC\3-1\Graficos 2\Final - Graficos 1 - Peralta\Final - Graficos 1 - Peralta\Engine\Debug\EngineDLL.dll
+          1 archivo(s) copiado(s).
